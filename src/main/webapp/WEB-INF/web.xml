@@ -11,7 +11,7 @@
 		
 		<init-param>
 			<param-name>application</param-name>
-			<param-value>com.catalystitservices.vaadin.TestApp</param-value>
+			<param-value>com.catalystitservices.vaadin.MainApp</param-value>
 		</init-param>
 	</servlet>
 	
