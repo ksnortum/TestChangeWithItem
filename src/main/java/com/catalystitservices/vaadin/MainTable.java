@@ -17,11 +17,22 @@ public class MainTable extends VerticalLayout {
 		// Table
 		Table table = new Table();
 		table.setContainerDataSource( MainContainer.createContainer() );
-		table.setWidth( "40%" );
+		
+		// If you don't set the table width, it will shrink to fit
+		//table.setWidth( "40%" );
+		
 		table.setVisibleColumns( new Object[] { "id", "name", "number" } );
-		table.setColumnExpandRatio( "id", 1 );
-		table.setColumnExpandRatio( "name", 4 );
-		table.setColumnExpandRatio( "number", 4 );
+		
+		// Ratios between the cells
+		//table.setColumnExpandRatio( "id", 1 );
+		//table.setColumnExpandRatio( "name", 4 );
+		//table.setColumnExpandRatio( "number", 4 );
+		
+		// Actual pixel widths of the cells
+		table.setColumnWidth( "id", 10 );
+		table.setColumnWidth( "name", 135 );
+		table.setColumnWidth( "number", 135 );
+		
 		table.setEditable( true );
 		table.setImmediate( true );
 		table.setPageLength( 8 );

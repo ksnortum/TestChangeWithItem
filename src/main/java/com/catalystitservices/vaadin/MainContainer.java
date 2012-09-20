@@ -41,7 +41,7 @@ public class MainContainer {
 	}
 
 	/**
-	 * Add an item on the bottum
+	 * Add an item on the bottom
 	 * 
 	 * @param name
 	 * @param number
