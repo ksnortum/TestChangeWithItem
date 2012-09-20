@@ -1,7 +1,7 @@
 Test Change with Item
 =====================
 
-This project sets up a simple Table using [Vaadin](vaadin.com) and changes cells based on the values modified in other cells using the Item object.  A ValueChangeListener is added to each cell in the MainFieldFactory to change the number to "42" if the name is changed to "Jeff" and to change the name to "Zero" if the number is changed to "0".
+This project sets up a simple Table using [Vaadin](http://vaadin.com) and changes cells based on the values modified in other cells using the Item object.  A ValueChangeListener is added to each cell in the MainFieldFactory to change the number to "42" if the name is changed to "Jeff" and to change the name to "Zero" if the number is changed to "0".
 
 Running
 -------
